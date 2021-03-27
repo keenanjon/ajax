@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tehtävä AJAX</title>
+    <link rel="stylesheet"  href="haku_css.css">
+</head>
+<body>
+
+  <h4>Super ja hyper tv-sarjojen hakukone:</h4>
+
+  <div class = "kuva5 aligncenter more_padding2" id = "hakumeininki">
+      <form id="search-form">
+          <label for="hakuteksti"></label><input type="text" name="search-field" placeholder="Hae tv-sarjaa..." id = "hakuteksti">
+          <button type="submit" id = "hae">Hae</button>
+      </form>
+    <div  id = "tahan_tulokset">
+      <div id = "leffat"></div>
+    </div>
+  </div>
+
+  <script src="ajaxFairy.js"></script>
+  
+</body>
+</html>
